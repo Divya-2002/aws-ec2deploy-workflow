@@ -29,5 +29,5 @@ jobs:
           touch env
           echo "Hello" > env
     - run: npm run build
-    - run: nohup npm run dev 
+    - run: nohup npm run dev &
     
